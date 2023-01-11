@@ -1,0 +1,56 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 12px;
+}
+
+.nav-items {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-right: 20px;
+}
+
+.nav-items > li {
+    padding-left: 60px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+li > a {
+    text-decoration: none;
+    color: #1f1e19;
+}
+
+a:hover {
+    color: #FF5086;
+    border-bottom: #FF5086 solid 3px;
+    padding-bottom: 20px;
+}
+
+.phone {
+    color: #FFFFFF;
+    padding-left: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    padding-right: 25px;
+}
+
+.talk {
+    width: 125px;
+    height: 45px;
+    border: none;
+    border-radius: 25px;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 30px;
+    /* transition: all .5s ease-out 0s; */
+    background: linear-gradient(to bottom, #ff4495 0%, #ff6d6d 100%, #7db9e8 100%);
+}
+
