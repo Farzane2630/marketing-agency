@@ -17,7 +17,7 @@ export default function () {
             <div className='phone'>
                 <p> Call Us: +10 (78) 378 3784 </p>
             </div>
-            <button className='talk'> Let`s Talk </button>
+            <button className='talk but-color'> Let`s Talk </button>
         </nav>
     </div>
   )

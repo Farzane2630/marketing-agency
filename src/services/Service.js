@@ -5,11 +5,11 @@ export default class
   render() {
     return (
       <div className='container'>
-        <h3> Discover, Explore the Product </h3>
+        <h3> {this.props.title}</h3>
         <div className='service-icon'>
             <img src={this.props.image}></img>
         </div>
-        Effective strategies to help you reach customers.
+        {this.props.description}
       </div>
     )
   }
