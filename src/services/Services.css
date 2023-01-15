@@ -26,6 +26,7 @@
 }
 
 .container {
+    background-color: #ffff;
     width: 250px;
     height: fit-content;
     padding-bottom: 30px;
@@ -47,4 +48,19 @@
     position: absolute;
     top: 15px;
     left: 18px;
+}
+
+.started-but {
+    border: none;
+    border-radius: 25px;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    background: linear-gradient(to bottom, #ff4495 0%, #ff6d6d 100%, #7db9e8 100%);
+}
+.started-but:hover{
+    background: white !important;
+    border: solid thin #FF5086 !important;
+    color: #FF5086;
 }

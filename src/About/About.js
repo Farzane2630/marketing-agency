@@ -12,7 +12,7 @@ export default function About(props) {
             <h1 className='black-title'> We Create a Steps to Build a Successful Digital Product </h1>
             <p className='detail'> With over 50 years of combined experience, our mission is to design with your values and vision in mind. We’re out to create purposeful spaces that balance art and creativity with science and strategy. </p>
             <p className='detail'>We’re out to create purposeful spaces that balance art and creativity with science and strategy. </p>
-            <p id='explore'> Explore More </p>
+            <p className='explore-more'> Explore More </p>
         </div>
     </div>
   )

@@ -12,7 +12,7 @@ export default class
         <p className='main-pink'>{this.props.type}</p>
         <h2 id='price'> $ {this.props.price} </h2>
         <p className='plan-detail'>{this.props.detail}</p>
-        <button className='started-but but-color'> Get Started </button>
+        <button className='started-but'> Get Started </button>
       </div>
     )
   }

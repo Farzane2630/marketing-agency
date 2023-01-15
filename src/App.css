@@ -28,7 +28,7 @@
 }
 
 body {
-  background-color: #F8FBFE;
+  background-color: #eaf4fe;
 }
 
 .but-color {
@@ -41,4 +41,21 @@ body {
   margin-right: 30px;
   transition-duration: 0.5s;
   background: linear-gradient(to bottom, #ff4495 0%, #ff6d6d 100%, #7db9e8 100%);
+}
+
+.explore-more {
+  margin-top: 15px;
+  border-bottom: #FF5086 solid 3px;
+  width: fit-content;
+  padding-bottom: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.explore-more:hover{
+  width:100px;
+}
+
+p .explore-more:hover {
+  font-size: larger;
 }

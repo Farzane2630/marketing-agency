@@ -4,6 +4,8 @@ import Header from './Header/Header'
 import Services from './services/Services.js'
 import About from './About/About'
 import Pricing from './Pricing/Pricing'
+import WhyUs from './WhyUs/WhyUs'
+import Brand from './Brand/Brand'
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
       <Services />
       <About />
       <Pricing />
+      <WhyUs />
+      <Brand />
     </div>
   );
 }
