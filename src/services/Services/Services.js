@@ -1,6 +1,6 @@
 import React from 'react'
-import Service from './Service'
-import './Services.css'
+import Service from '../Service/Service'
+import '../Services/Services.css'
 
 export default class Services extends React.Component {
 

@@ -25,14 +25,24 @@
     margin-top: 30px;
 }
 
-.container {
+.service-container {
     background-color: #ffff;
     width: 250px;
     height: fit-content;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
+    padding-top: 30px;
     margin-left: 30px;
     padding-left: 30px;
     border-radius: 8px;
+    transition-property: all;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-out;
+}
+
+.service-container:hover{
+    transition: background-color 0.4s ease-out;
+    background: rgb(3, 3, 27);
+    color: white;
 }
 
 .service-icon {
