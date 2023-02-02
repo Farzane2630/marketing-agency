@@ -20,6 +20,11 @@
     margin: 30px 10px;
 }
 
+.social:hover {
+    color: #FF5086;
+    cursor: pointer;
+}
+
 /* -------------------------------Middle Columns------------------ */
 .middle-cols {
     width: 750px;
@@ -42,6 +47,7 @@
 
 .footer-navigation a:hover, .footer-services a:hover {
     border-bottom: black 2px solid;
+    color: #7d7a7a;
 }
 
 .footer-navigation, .footer-services, .right-col-container ul {
@@ -61,6 +67,7 @@ height: 330px;
 
 .footer-phone{
     color: #FF5086 !important;
+    font-size: large;
 }
 
 .footer-email{
@@ -70,4 +77,5 @@ height: 330px;
 .footer-email, .footer-phone{
     font-weight: bold;
     text-decoration: underline;
+    cursor: pointer;
 }

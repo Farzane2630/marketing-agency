@@ -4,6 +4,7 @@
     height: 45px;
     border-radius: 25px;
     flex-direction: row !important;
+    margin: 20px auto;
 }
 
 #yearly, #monthly{
@@ -12,7 +13,8 @@
     text-align: center;
     color: black;
     background-color: white;
-    height: inherit;
+    height: 45px;
+    font-size: 14px;
 }
 
 #monthly {

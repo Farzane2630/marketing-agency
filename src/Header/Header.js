@@ -1,12 +1,10 @@
 import React from "react";
-import Navigationbar from '../HomePage/Navbar/Navbar'
 import './Header.css'
 
 export default class Header extends React.Component {
     render (){
         return (
-            <div className="main">
-                <Navigationbar />
+            <div className="header-main">
                 <div className="intro">
                 <div className="digital">Digital Marketing Expert</div>
                 <h1 className="header-title">We bring you new customers</h1>
